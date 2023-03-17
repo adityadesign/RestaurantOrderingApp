@@ -82,7 +82,7 @@ function addingToArray(){
 function getInnerFeed(){
     let innerFeed = ''
     menuArray.forEach((menu)=>{
-        innerFeed += `<div class=".container">
+        innerFeed += `<div class="container">
                         <div class='row'>
                             <p class="emoji col-lg-2">${menu.emoji}</p>
                             <div class="contents col">
