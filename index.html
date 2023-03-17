@@ -1,0 +1,61 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+        <link rel="stylesheet" href="index.css">
+
+        <!--Google Fonts  -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Smythe&display=swap" rel="stylesheet">
+        <!-- Font Awesome -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/fontawesome.min.css" integrity="sha512-cHxvm20nkjOUySu7jdwiUxgGy11vuVPE9YeK89geLMLMMEOcKFyS2i+8wo0FOwyQO/bL8Bvq1KMsqK4bbOsPnA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <!-- Bootstrap -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    </head>
+    <body>
+        <main>
+            <div class="header">
+                <p class="head1">Jimmy's Diner</p>>
+                <p class="head2">The best burgers and pizzas in town.</p>
+            </div>
+            <div class="feed" id="feed">
+                <!-- Feed  -->
+            </div>
+            <div class="orderDetails container hidden" id="orderDetails">
+                <div class="row">
+                    <span class="head3">Your Order</span>
+                </div>
+                <div class="row orderList" id="orderList">
+                    <!-- Order List -->
+                </div>
+                <div class="row total">
+                    <span class="col-9" id="totalText">Total Price: </span>
+                    <span class="col-3 orderPrice" id="total-price">$</span>
+                </div>
+                <div class="d-grid gap-2 col-11 mx-auto">
+                    <button class="btn-lg btn-primary" id="completeBtn" type="button" data-complete="completeBtn">Complete Order</button>
+                </div>
+            </div>
+        </main>
+        <div class="hidden" id="greeting">
+
+        </div>
+        <form class="container hidden" id="form" method="post">
+            <div class="row p-5 mx-auto" id="formHeading">
+                Enter Card Details
+            </div>
+            <div class="row col-lg-10 mx-auto" id="formContents">
+                <input type="text" class="mb-3 p-3" name="name" id="name" placeholder="Enter your name" required>
+                <input type="text" class="mb-3 p-3" name="cardNumber" id="cardNumber" placeholder="Enter card number" required>
+                <input type="number" class="mb-1 p-3" name="cvv" id="cvv" placeholder="Enter CVV" required> 
+            </div>
+            <div class="d-grid col-10 mx-auto mb-3">
+                <button class="btn-lg btn-primary p-3" id="payBtn" type="button" data-pay="payBtn">Pay</button>
+            </div>
+        </form>
+	<script src="index.js" type="module"></script>
+    <script src="https://kit.fontawesome.com/3d1c47501a.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    </body>
+</html>
+

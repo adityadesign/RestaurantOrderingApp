@@ -1,0 +1,146 @@
+body {
+    margin: 0;
+    font-family: 'Smythe', cursive;
+    background-color: #f7e47a;
+} 
+.header{
+    display: block;
+    width: 600px;
+    margin: 0 auto;
+    height: 170px;
+    background-size: cover;
+    background-image: url('Images/burger.jpg');
+}
+.head1{
+    display: block;
+    margin: 0;
+    color: white;
+    font-size: 39px;
+    padding: 40px 0 0 46px;
+}
+.head2{
+    display: block;
+    margin-top: -15px;
+    color: white;
+    font-size: 22px;
+    padding: 0 0 0 46px;
+}
+#feed{
+    margin: 0 auto;
+    font-family: 'Smythe', cursive;
+    width: 600px;
+}   
+.emoji{
+    font-size: 70px;
+    margin-left: 20px;
+    padding: 35px 0 35px 0;
+}
+.contents{
+    padding: 45px 0 0 0;
+}
+.hr{
+    width: 550px;
+    border-bottom: 1px solid #D2D2D2;
+}
+.name{
+    font-size: 28px;
+}
+.ingredients{
+    font-size: 16px;
+    color: #8B8B8B;
+    margin-top: -20px;
+}
+.price{
+    font-size: 20px;
+    margin-top: -10px;
+}
+.add-icon{
+    margin-top: 70px;
+    font-size: 50px;
+    color: #DEDEDE;
+}
+.add-icon:hover{
+    color: #8B8B8B;
+}
+
+#orderDetails{
+    margin: 0 auto;
+    max-width: 550px;
+    font-family: 'Smythe', cursive;
+}
+
+.head3{
+    font-size: 28px;
+    text-align: center;
+    padding: 40px 0 50px 0;
+}
+#orderName{
+    padding: 0 0 10px 60px;
+    font-size: 25px;
+}
+.orderPrice{
+    padding-top: 5px;
+    font-size: 20px;
+}
+#remove{
+    font-size: 14px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-left: 10px;
+    color: #BBBBBB;
+    cursor: pointer;
+}
+.btn-lg{
+    font-size: 16px !important;
+    font-weight: bold !important;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 40px 0 20px 0;
+    padding: 20px 0 !important;
+    background-color: #16DB99 !important;
+}
+#totalText{
+    font-size: 28px; 
+    padding: 0 0 0 60px;
+}
+.total{
+    border-top: 2px solid #393333;
+    padding-top: 14px;
+    margin-top: 30px;
+}
+
+.hidden{
+    display: none;
+}
+#total-price{
+    padding-left: 38px;
+}
+#form{
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 50px;
+    bottom: 50px;
+    margin: auto;
+    width: 500px;
+    height: 500px;
+    border: 1px solid #8B8B8B;
+    border-radius: 5px;
+    box-shadow: 20px 20px 50px grey;
+    background-color: white;
+}
+#formHeading{
+    font-size: 24px;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-left: 120px !important; 
+}
+#greeting{
+    text-align: center;
+    width: 600px;
+    margin: 45px auto;
+    padding: 40px 0;
+    font-size: 32px;
+    font-family: 'Smythe', cursive;
+    color: #065F46;
+    background-color: #ECFDF5;
+    border-radius: 10px;
+}
