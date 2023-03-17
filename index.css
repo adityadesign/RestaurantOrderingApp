@@ -29,6 +29,7 @@ body {
     margin: 0 auto;
     font-family: 'Smythe', cursive;
     width: 600px;
+    background-color: white;
 }   
 .emoji{
     font-size: 70px;
